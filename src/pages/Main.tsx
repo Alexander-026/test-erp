@@ -41,10 +41,6 @@ const Main = () => {
     refresh();
   }, [refresh]);
 
-  console.log("deps:", deps);
-  console.log("clinets:", clinets);
-  console.log("projects:", projects);
-
   const handleCreateProject = async (body: NewProject): Promise<void> => {
     try {
       setCreateLoading(true);

@@ -35,12 +35,6 @@
       "id": 1,
       "idDepClient": "1-NOK",
       "idProject": "1-NOK-27072023"
-    },
-    {
-      "idDepClient": "2-DOK",
-      "idProject": "3-POK-27072023",
-      "timestamp": "27.07.2023",
-      "id": 3
     }
   ]
 }
