@@ -1,0 +1,33 @@
+.client {
+  border-spacing: 0;
+  width: 45rem;
+  table-layout: fixed;
+  text-align: left;
+  thead {
+    th {
+      padding: 0.5rem 1rem;
+      border-left: 1px solid black;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      &:last-child {
+        border-right: 1px solid black;
+      }
+    }
+  }
+
+  thead {
+    background-color: gray;
+  }
+
+  tbody {
+    background-color: lightgray;
+    td {
+      padding: 0.5rem 1rem;
+      border-left: 1px solid black;
+      border-bottom: 1px solid black;
+      &:last-child {
+        border-right: 1px solid black;
+      }
+    }
+  }
+}

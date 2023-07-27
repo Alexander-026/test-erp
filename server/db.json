@@ -1,0 +1,46 @@
+{
+  "deps": [
+    {
+      "id": 1,
+      "name": "NOK"
+    },
+    {
+      "id": 2,
+      "name": "DOK"
+    },
+    {
+      "id": 3,
+      "name": "POK"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "idDep": "1-NOK",
+      "name": "Шевченко А.В."
+    },
+    {
+      "id": 2,
+      "idDep": "2-DOK",
+      "name": "Гончаров Б.В."
+    },
+    {
+      "id": 3,
+      "idDep": "3-POK",
+      "name": "Бобров К.П."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "idDepClient": "1-NOK",
+      "idProject": "1-NOK-27072023"
+    },
+    {
+      "idDepClient": "2-DOK",
+      "idProject": "3-POK-27072023",
+      "timestamp": "27.07.2023",
+      "id": 3
+    }
+  ]
+}

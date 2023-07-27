@@ -1,0 +1,47 @@
+.creator {
+  background-color: lightgray;
+  padding: 1rem 2rem;
+  width: 40rem;
+  &Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: gray;
+    color:  lightblue;
+    margin-bottom: 1rem;
+    &Logo {
+      gap: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        width: 2rem;
+      }
+    }
+    &Date {
+
+    }
+  }
+
+  &Form {
+    &Item {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+ 
+  &Btn {
+    margin-top: 1rem;
+    button {
+      padding: 0 1rem;
+      background-color: lightblue;
+      border: 1px solid gray;
+      color: blue;
+      cursor: pointer;
+    }
+  }
+}
