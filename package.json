@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "https://json-server-nine-flame.vercel.app",
   "browserslist": {
     "production": [
       ">0.2%",

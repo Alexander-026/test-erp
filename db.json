@@ -32,9 +32,22 @@
   ],
   "projects": [
     {
-      "id": 1,
+      "idDepClient": "3-POK",
+      "idProject": "2-DOK-27072023",
+      "timestamp": "27.07.2023",
+      "id": 14
+    },
+    {
       "idDepClient": "1-NOK",
-      "idProject": "1-NOK-27072023"
+      "idProject": "1-NOK-27072023",
+      "timestamp": "27.07.2023",
+      "id": 15
+    },
+    {
+      "idDepClient": "1-NOK",
+      "idProject": "1-NOK-27072023",
+      "timestamp": "27.07.2023",
+      "id": 16
     }
   ]
 }
