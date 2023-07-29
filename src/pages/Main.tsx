@@ -19,6 +19,7 @@ const Main = () => {
   const [error, setError] = useState<null | string>(null);
 
   const refresh = useCallback(async (): Promise<void> => {
+    console.log('gettt')
     try {
       setLoading(true);
       const depResult = await DepService.getAll();
